@@ -1,0 +1,124 @@
+/* Fonts Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@500&display=swap');
+
+:root {
+    --main-grey: #dedede;
+    --background-blue: #0072ef;
+    --main-blue: #2309AE;
+    background-image: linear-gradient(#2309AE 0%, #0072ef 35%, #00d4ff 80%,white 100%);
+    padding: 1%;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: smaller; 
+}
+
+iframe  {
+    flex-grow: 100;
+    border-left: 2px solid white;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+h1  { 
+    font-size: 4em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 1% 0;
+}
+
+.table {
+    display: inline-flex;
+    flex-direction: column;
+    height: 24.5em;
+    width: 50%;
+}
+
+.tableHeader {
+    background-color: #150a51;
+    border-left: 3px white solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0.5%;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.column-flex {
+    flex-direction: column;
+}
+
+.align-center {
+    align-self: center;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.row {
+    display: inline-flex;
+    width: 100%;
+}
+
+.formCard {
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cardHeader {
+    background-color: #D0F5BE;
+    height: 85px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 3.5em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+#tables {
+    height: 80%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 2%;
+}
+
+#top {
+    height: 10%;
+}
+
+#countryChart {
+    align-self: center;
+}
+
+#formHeader {
+    padding-top: 0.5em;
+    font-size: 5em;
+    align-self: center;
+    font-family: 'REM', sans-serif;
+}
+
+#removeAgent {
+    background-color: #F96666;
+}
+
+#form-builder {
+    height: 400px !important;
+    padding-top: 0px !important;
+}

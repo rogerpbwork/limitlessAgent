@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Roger Perez Becerra" />
+        <title>Limitless Leaderboard Chart</title>
+        <link rel="icon" type="image/x-icon" href="assets/Favicon/favicon_io/favicon.ico" />
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="top">
+            <h1>Leaderboards</h1>
+        </div>
+        <div id="tables">
+            <div class="row">
+                <div class="table" id="liveLeaderboard">
+                    <div class="tableHeader">Agent Leaderboard</div>
+                    <iframe title="leaderboard" 
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSZCP-fWcsF8GC4lZ8LridVW_3clUVXcUoKebe0sCSUg4isnDTgT_dBLvM1jcfXP3_KrOBIBuX5yf0V/pubhtml?gid=1398790145&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false"></iframe>
+                </div>
+                <div class="table" id="pieChart">
+                    <div style="background-color: #FF9B9B!important;" class="tableHeader">Country Leaderboard</div>
+                    <iframe id="countryChart" width="576" height="355" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSZCP-fWcsF8GC4lZ8LridVW_3clUVXcUoKebe0sCSUg4isnDTgT_dBLvM1jcfXP3_KrOBIBuX5yf0V/pubchart?oid=196580271&amp;format=image"></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <p class="disclaimer">Please allow up to 5 minutes for the results to be refreshed</p>
+            </div>
+        </div>
+        <div class="flex column-flex">
+            <h1 id="formHeader">Submit Points</h1>
+            <div class="inline-flex justify-evenly">
+                <div class="formCard">
+                    <div class="cardHeader" id="addAgent">Add Points</div>
+                    <iframe
+                    src="https://api.leadconnectorhq.com/widget/form/82FVjLhPOyZvHTkR3oci"
+                    style="width:100%;height:100%;border:none;border-radius:20px"
+                    id="inline-82FVjLhPOyZvHTkR3oci" 
+                    data-layout="{'id':'INLINE'}"
+                    data-trigger-type="alwaysShow"
+                    data-trigger-value=""
+                    data-activation-type="alwaysActivated"
+                    data-activation-value=""
+                    data-deactivation-type="neverDeactivate"
+                    data-deactivation-value=""
+                    data-form-name="Submit to Leaderboard"
+                    data-height="400"
+                    data-layout-iframe-id="inline-82FVjLhPOyZvHTkR3oci"
+                    data-form-id="82FVjLhPOyZvHTkR3oci"
+                    title="Submit to Leaderboard"
+                        >
+                  </iframe>
+                  <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
